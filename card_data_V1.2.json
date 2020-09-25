@@ -1,0 +1,63 @@
+{
+	"screen_ui_t" : 
+	{
+		"screen_type_t"				:  "SCREEN_TYPE_S0",
+			
+		"station_info" 				: 
+		{
+			"serial"						:	"SampleNum-1234"
+		},
+		
+		"header_visibility" 	: 	"true",
+		
+		"card_ui_t" 					:
+		{
+			"cards"							:
+			[
+				{
+					"card_type"						: "CARD_TYPE_W50_GRAY_MEDIA_STRING2",
+					"card_bg_color"				: 0,
+					"slot_index"					: 0,
+					"flipper_visibility"	: "true",
+					"flipper_index"				:	5,
+					"media_type"					: 0,
+					"media_path"					: "/Dir/subDir_1/subDir_2/QR_code.ext",
+					"title"								: "SAMPLE TITLE STRING",
+					"string1"							: "Sample string1",
+					"string2"							: "Sample string2",
+					"string3"							: "Sample string3",
+					"string4"							: "Sample string4"
+				},
+				{
+					"card_type"						: "CARD_TYPE_W50_GREEN_MEDIA_STRING2",
+					"card_bg_color"				: 0,
+					"slot_index"					: 0,
+					"flipper_visibility"	: "false",
+					"flipper_index"				:	5,
+					"media_type"					: 0,
+					"media_path"					: "/Dir/subDir_1/subDir_2/QR_code.ext",
+					"title"								: "SAMPLE TITLE STRING",
+					"string1"							: "Sample string1",
+					"string2"							: "Sample string2",
+					"string3"							: "Sample string3",
+					"string4"							: "Sample string4"
+				},
+				{
+					"card_type"						: "CARD_TYPE_W50_GREEN_MEDIA_STRING2",
+					"card_bg_color"				: 0,
+					"slot_index"					: 0,
+					"flipper_visibility"	: "false",
+					"flipper_index"				:	5,
+					"media_type"					: 0,
+					"media_path"					: "/Dir/subDir_1/subDir_2/QR_code.ext",
+					"title"								: "SAMPLE TITLE STRING",
+					"string1"							: "Sample string1",
+					"string2"							: "Sample string2",
+					"string3"							: "Sample string3",
+					"string4"							: "Sample string4"
+				}
+			]
+		}
+	},
+	"delay"								:  		5
+}

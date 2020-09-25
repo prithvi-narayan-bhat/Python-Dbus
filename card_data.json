@@ -1,0 +1,134 @@
+{
+	"Bootup_Sequence" : [
+		{
+			"screen_type" 				: "SCREEN_TYPE_S0",
+			"card_type"						: "CARD_TYPE_W100_BLUE_SPALSH",
+			"header"							: "SemaConnect Charging Station",
+			"string1" 						: "Loading left slot..",
+			"string2" 						: "Loading right slot..",
+			"media_path" 					: "/Dir/subDir_1/subDir_2/media.ext",
+			"slot_index"					: "0",
+			"fillper_visibility"	: "Hide"
+		}
+	],
+	"Dormant_Rest" : [
+		{
+			"screen_type" 				: "SCREEN_TYPE_S1",
+			"card_type" 					: "CARD_TYPE_W50_GRAY_MEDIA_STRING2",
+			"slot_index"					: "0",
+			"flipper_visibility"	: "Hide",
+			"flipper_index"				: "3",
+			"media_type"					: "0",
+			"media_path"					: "/Dir/subDir_1/subDir_2/QR_code.ext", 
+			"string1"							: "Scan QR code",
+			"string2"							: "To know prices"
+		},
+		{
+			"screen_type" 				: "SCREEN_TYPE_S1",
+			"card_type" 					: "CARD_TYPE_W50_GRAY_MEDIA_STRING2",
+			"slot_index"					: "1",
+			"flipper_visibility"	: "Show",
+			"flipper_index"				: "5",
+			"media_type"					: "0",
+			"media_path"					: "/Dir/subDir_1/subDir_2/QR_code.ext", 
+			"string1"							: "Tap Card",
+			"string2"							: "To proceed.."
+		}
+	],
+	"Slot_0_activated" : [
+		{
+			"screen_type" 				: "SCREEN_TYPE_S1",
+			"card_type" 					: "CARD_TYPE_W50_GREEN_MEDIA_STRING2",
+			"slot_index"					: "0",
+			"flipper_visibility"	: "Show",
+			"flipper_index"				: "3",
+			"media_type"					: "0",
+			"media_path"					: "/Dir/subDir_1/subDir_2/QR_code.ext",
+			"string1"							: "Verifying",
+			"string2"							: "Please Wait.."
+		},
+		{
+			"screen_type" 				: "SCREEN_TYPE_S1",
+			"card_type" 					: "CARD_TYPE_W50_GREEN_MEDIA_STRING2",
+			"slot_index"					: "0",
+			"flipper_visibility"	: "Show",
+			"flipper_index"				: "3",
+			"media_type"					: "0",
+			"media_path"					: "/Dir/subDir_1/subDir_2/QR_code.ext",
+			"string1"							: "Verified",
+			"string2"							: "Charging Begins.."
+		},
+		{
+			"screen_type" 				: "SCREEN_TYPE_S1",
+			"card_type" 					: "CARD_TYPE_W50_GREEN_TITLE_STRING4​",
+			"slot_index"					: "0",
+			"flipper_visibility"	: "Show",
+			"flipper_index"				: "3",
+			"Title"								: "Charging",
+			"string1"							: "$00.00",
+			"string2"							: "00:00:02",
+			"string3"							: "0.000kWh",
+			"string4"							: "0W"
+		},
+		{
+			"screen_type" 				: "SCREEN_TYPE_S1",
+			"card_type" 					: "CARD_TYPE_W50_GREEN_TITLE_STRING4​",
+			"slot_index"					: "0",
+			"flipper_visibility"	: "Show",
+			"flipper_index"				: "3",
+			"Title"								: "Charging",
+			"string1"							: "$01.00",
+			"string2"							: "01:10:02",
+			"string3"							: "1.000kWh",
+			"string4"							: "1W"
+		},
+		{
+			"screen_type" 				: "SCREEN_TYPE_S1",
+			"card_type" 					: "CARD_TYPE_W50_GREEN_TITLE_STRING4​",
+			"slot_index"					: "0",
+			"flipper_visibility"	: "Show",
+			"flipper_index"				: "3",
+			"Title"								: "Charging",
+			"string1"							: "$00.00",
+			"string2"							: "02:20:02",
+			"string3"							: "2.034kWh",
+			"string4"							: "2W"
+		},
+		{
+			"screen_type" 				: "SCREEN_TYPE_S1",
+			"card_type" 					: "CARD_TYPE_W50_GREEN_TITLE_STRING4​",
+			"slot_index"					: "0",
+			"flipper_visibility"	: "Show",
+			"flipper_index"				: "3",
+			"Title"								: "Charging",
+			"string1"							: "$00.00",
+			"string2"							: "03:04:02",
+			"string3"							: "6.230kWh",
+			"string4"							: "5W"
+		},
+		{
+			"screen_type" 				: "SCREEN_TYPE_S1",
+			"card_type" 					: "CARD_TYPE_W50_GREEN_MEDIA_STRING2",
+			"slot_index"					: "0",
+			"flipper_visibility"	: "Show",
+			"flipper_index"				: "3",
+			"media_type"					: "0",
+			"media_path"					: "/Dir/subDir_1/subDir_2/Charging_done.ext",
+			"string1"							: "Charging Done",
+			"string2"							: "Fetching Cost.."
+		},
+		{
+			"screen_type" 				: "SCREEN_TYPE_S1",
+			"card_type" 					: "CARD_TYPE_W50_GREEN_TITLE_STRING3",
+			"slot_index"					: "0",
+			"flipper_visibility"	: "Show",
+			"flipper_index"				: "3",
+			"media_type"					: "0",
+			"media_path"					: "/Dir/subDir_1/subDir_2/Charging_done.ext",
+			"Title"								: "Total",
+			"string1"							: "$08.31",
+			"string2"							: "03:06:18",
+			"string3"							: "6.231kWh"
+		}
+	]
+}
